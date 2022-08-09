@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  background: rgb(255, 243, 135);
+  background: rgb(15, 224, 120);
   margin: 0 auto;
   padding-top: 100px;
 }
@@ -11,7 +11,9 @@ body {
 }
 
 .input {
-  width: 70%;
+  width: 72%;
+  height: 30px;
+  font-size: 20px;
 }
 
 .button {
@@ -35,10 +37,11 @@ body {
 
 .li {
   padding: 4px 8px;
-  background: #eddfff;
-  border: 1px solid brown;
+  background: rgb(15, 224, 120);
+  border: 1px solid black;
   margin: 10px 0;
   display: flex;
+  letter-spacing: 1px;
   justify-content: space-between;
   align-items: center;
   position: relative;
@@ -48,7 +51,7 @@ body {
 }
 
 .li-active {
-  color: #555;
+  color: rgb(124, 124, 124);
   text-decoration: line-through;
   background-color: #000;
 }
